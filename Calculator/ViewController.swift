@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var number1: Int = 0
     var number2: Int = 0
     var number3: Int = 0
+    var count: Int = 0
     var ope: Int = 0 //どの四則演算をするかを判定する変数
     
     override func viewDidLoad() {
@@ -67,24 +68,48 @@ class ViewController: UIViewController {
         label.text = String(number1)
     }
     @IBAction func selectplus(){
-        number2 = number1
+        count += 1
+        if count >= 2{
+            selectequal()
+            count = 0
+        }
+        number2 = number1 + number2
         number1 = 0
         ope = 1
+
     }
     @IBAction func selectminus(){
-        number2 = number1
+        count += 1
+        if count >= 2{
+            selectequal()
+            count = 0
+        }
+        number2 = number1 + number2
         number1 = 0
         ope = 2
+    
     }
     @IBAction func selecttime(){
-        number2 = number1
+        count += 1
+        if count >= 2{
+            selectequal()
+            count = 0
+        }
+        number2 = number1 + number2
         number1 = 0
         ope = 3
+
     }
     @IBAction func selectdevide(){
-        number2 = number1
+        count += 1
+        if count >= 2{
+            selectequal()
+            count = 0
+        }
+        number2 = number1 + number2
         number1 = 0
         ope = 4
+
     }
     @IBAction func selectclear(){
         number1 = 0
@@ -106,8 +131,11 @@ class ViewController: UIViewController {
         else if ope == 4{
             number3 = number2 / number1
         }
+        count = 0
+        number2 = 0
         number1 = number3
         label.text = String(number3)
     }
+    
 }
 
