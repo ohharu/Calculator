@@ -12,6 +12,8 @@
 		CB4491A4206EA7C2007E5728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4491A2206EA7C2007E5728 /* Main.storyboard */; };
 		CB4491A6206EA7C2007E5728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4491A5206EA7C2007E5728 /* Assets.xcassets */; };
 		CB4491A9206EA7C2007E5728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4491A7206EA7C2007E5728 /* LaunchScreen.storyboard */; };
+		CBB36A3820809B1900B55C53 /* ダウンロード.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB36A3720809B1900B55C53 /* ダウンロード.png */; };
+		CBB36A3C20809C2A00B55C53 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBB36A3B20809C2A00B55C53 /* background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CB4491A5206EA7C2007E5728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB4491A8206EA7C2007E5728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4491AA206EA7C2007E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB36A3720809B1900B55C53 /* ダウンロード.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ダウンロード.png"; sourceTree = "<group>"; };
+		CBB36A3B20809C2A00B55C53 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		CB44919D206EA7C2007E5728 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CBB36A3720809B1900B55C53 /* ダウンロード.png */,
 				CB44919E206EA7C2007E5728 /* AppDelegate.swift */,
+				CBB36A3B20809C2A00B55C53 /* background.jpeg */,
 				CB4491A0206EA7C2007E5728 /* ViewController.swift */,
 				CB4491A2206EA7C2007E5728 /* Main.storyboard */,
 				CB4491A5206EA7C2007E5728 /* Assets.xcassets */,
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4491A9206EA7C2007E5728 /* LaunchScreen.storyboard in Resources */,
+				CBB36A3C20809C2A00B55C53 /* background.jpeg in Resources */,
 				CB4491A6206EA7C2007E5728 /* Assets.xcassets in Resources */,
+				CBB36A3820809B1900B55C53 /* ダウンロード.png in Resources */,
 				CB4491A4206EA7C2007E5728 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
